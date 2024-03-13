@@ -4,14 +4,14 @@ import { FaInstagram, FaFacebookF, FaPinterestP, FaTwitter, FaShoppingCart } fro
 
 const Index = () => {
   const jewelryItems = [
-    { name: "Elegant Ring", price: "$95", imageSrc: 'https://images.unsplash.com/photo-1527628173875-3c7bfd28ad78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwcmluZ3xlbnwwfHx8fDE3MTAzMTk0MjZ8MA&ixlib=rb-4.0.3&q=80&w=1080' },
-    { name: "Pearl Necklace", price: "$120", imageSrc: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTcxMDMxOTQyNnww&ixlib=rb-4.0.3&q=80&w=1080' },
-    { name: "Gold Bracelet", price: "$150", imageSrc: 'https://images.unsplash.com/photo-1633810543462-77c4a3b13f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkJTIwYnJhY2VsZXR8ZW58MHx8fHwxNzEwMzE5NDI2fDA&ixlib=rb-4.0.3&q=80&w=1080' },
-    { name: "Diamond Earrings", price: "$200", imageSrc: 'https://images.unsplash.com/photo-1588444650733-d0767b753fc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkaWFtb25kJTIwZWFycmluZ3N8ZW58MHx8fHwxNzEwMzE5NDI2fDA&ixlib=rb-4.0.3&q=80&w=1080' },
+    { name: "Elegant Ring", price: "$95", imageSrc: "https://images.unsplash.com/photo-1527628173875-3c7bfd28ad78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwcmluZ3xlbnwwfHx8fDE3MTAzMTk0MjZ8MA&ixlib=rb-4.0.3&q=80&w=1080" },
+    { name: "Pearl Necklace", price: "$120", imageSrc: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwZWFybCUyMG5lY2tsYWNlfGVufDB8fHx8MTcxMDMxOTQyNnww&ixlib=rb-4.0.3&q=80&w=1080" },
+    { name: "Gold Bracelet", price: "$150", imageSrc: "https://images.unsplash.com/photo-1633810543462-77c4a3b13f07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkJTIwYnJhY2VsZXR8ZW58MHx8fHwxNzEwMzE5NDI2fDA&ixlib=rb-4.0.3&q=80&w=1080" },
+    { name: "Diamond Earrings", price: "$200", imageSrc: "https://images.unsplash.com/photo-1588444650733-d0767b753fc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxkaWFtb25kJTIwZWFycmluZ3N8ZW58MHx8fHwxNzEwMzE5NDI2fDA&ixlib=rb-4.0.3&q=80&w=1080" },
   ];
 
-  const bgColor = useColorModeValue("gray.100", "gray.700");
-  const textColor = useColorModeValue("gray.700", "gray.100");
+  const bgColor = useColorModeValue("brand.800", "brand.900");
+  const textColor = useColorModeValue("brand.700", "white");
 
   return (
     <Container maxW="container.xl" p={0}>
@@ -39,7 +39,7 @@ const Index = () => {
           <Text color="white" fontSize="lg">
             Discover our exclusive jewelry collection.
           </Text>
-          <Button mt={4} colorScheme="pink" size="lg">
+          <Button mt={4} colorScheme="purple" size="lg">
             Shop Now
           </Button>
         </VStack>
